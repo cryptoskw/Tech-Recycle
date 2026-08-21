@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://techrecycle.co.za/sitemap.xml
