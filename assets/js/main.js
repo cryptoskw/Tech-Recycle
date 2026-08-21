@@ -126,12 +126,8 @@
       ensureHidden('_subject','New TechRecycle website enquiry');
       ensureHidden('_template','table');
       ensureHidden('_next','https://techrecycle.co.za/thank-you/');
-      ensureHidden('_replyto','');
-      form.addEventListener('submit', function(){
-        var email = form.querySelector('input[name="email"]');
-        var reply = form.querySelector('input[name="_replyto"]');
-        if(email && reply) reply.value = email.value || '';
-      });
+      ensureHidden('_captcha','false');
+      ensureHidden('_honey','');
     });
   }
 
